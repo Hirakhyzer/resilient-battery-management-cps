@@ -1,0 +1,19 @@
+{
+  "battery": {
+    "capacity_ah": 2.5,
+    "nominal_voltage_v": 3.7,
+    "internal_resistance_ohm": 0.055,
+    "rc_resistance_ohm": 0.018,
+    "rc_capacitance_f": 2400.0,
+    "thermal_capacity_j_k": 520.0,
+    "thermal_resistance_k_w": 5.0,
+    "ambient_temperature_c": 25.0,
+    "initial_soc": 0.80,
+    "initial_temperature_c": 25.0
+  },
+  "simulation": {"steps": 400, "dt_s": 1.0, "random_seed": 11},
+  "network": {"packet_loss_probability": 0.02, "latency_steps": 1, "random_seed": 7},
+  "attack": {"start_step": 120, "end_step": 220, "temperature_bias_c": -8.0, "voltage_bias_v": 0.0, "replay_measurements": false},
+  "detector": {"voltage_threshold_v": 0.12, "temperature_threshold_c": 2.5, "soc_threshold": 0.06, "persistence_steps": 3},
+  "controller": {"warm_temperature_c": 32.0, "hot_temperature_c": 38.0, "max_temperature_c": 43.0, "nominal_current_a": 2.0, "derated_current_a": 1.0, "cooling_power_w": 1.5}
+}
