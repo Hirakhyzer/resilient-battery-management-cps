@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/rbm-cps-banner.png" alt="Resilient Battery Management Cyber-Physical System" width="100%">
+</p>
+
 # Resilient Battery Management Cyber-Physical System
 
 [![CI](https://github.com/Hirakhyzer/resilient-battery-management-cps/actions/workflows/ci.yml/badge.svg)](https://github.com/Hirakhyzer/resilient-battery-management-cps/actions/workflows/ci.yml)
@@ -11,6 +15,14 @@ A reproducible **cyber-physical systems (CPS)** research platform for studying r
 ## Core research question
 
 **Can a battery-management CPS remain observable and behave safely when sensor measurements are noisy, delayed, lost, faulty, or maliciously manipulated?**
+
+## CPS architecture
+
+<p align="center">
+  <img src="assets/rbm-cps-architecture.png" alt="Resilient Battery Management CPS architecture" width="90%">
+</p>
+
+The closed-loop platform connects the physical battery plant to noisy sensing, fault/attack injection, networked communication, an edge BMS and digital twin, residual-based anomaly detection, and resilient supervisory control.
 
 ```text
 Physical battery model
@@ -49,6 +61,7 @@ Physical battery model
 
 ```text
 resilient-battery-management-cps/
+├── assets/                 # Project banner, architecture, cover
 ├── configs/
 ├── data/
 ├── docs/
@@ -116,6 +129,12 @@ The current baseline uses normalized residual thresholds and persistence so a si
 7. hardware-in-the-loop using a safe battery emulator or recorded traces.
 
 See [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md), [`docs/THREAT_MODEL.md`](docs/THREAT_MODEL.md), and [`docs/RESEARCH_ROADMAP.md`](docs/RESEARCH_ROADMAP.md).
+
+## Project identity
+
+<p align="center">
+  <img src="assets/rbm-cps-cover.png" alt="RBM-CPS project cover" width="360">
+</p>
 
 ## Scientific integrity
 
