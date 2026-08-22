@@ -1,5 +1,9 @@
 # CPS Architecture
 
+<p align="center">
+  <img src="../assets/rbm-cps-architecture.png" alt="Resilient Battery Management CPS architecture" width="95%">
+</p>
+
 The platform separates the system into five inspectable layers:
 
 1. **Physical plant** — reduced-order battery electrical and thermal dynamics.
